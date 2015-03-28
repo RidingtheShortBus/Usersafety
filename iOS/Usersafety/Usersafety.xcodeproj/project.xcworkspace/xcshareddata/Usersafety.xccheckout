@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EA3DC897-34CD-4107-BB41-32F9E1B5CA52</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Usersafety</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>455E29F73C5D9490C1EE19AEC98705E3C3D94C3A</key>
+		<string>https://github.com/RidingtheShortBus/Usersafety.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iOS/Usersafety/Usersafety.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>455E29F73C5D9490C1EE19AEC98705E3C3D94C3A</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/RidingtheShortBus/Usersafety.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>455E29F73C5D9490C1EE19AEC98705E3C3D94C3A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>455E29F73C5D9490C1EE19AEC98705E3C3D94C3A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>guyver</string>
+		</dict>
+	</array>
+</dict>
+</plist>
