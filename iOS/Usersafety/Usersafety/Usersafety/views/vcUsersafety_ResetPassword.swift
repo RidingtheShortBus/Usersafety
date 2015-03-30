@@ -1,0 +1,73 @@
+//
+//  vcUsersafety_ResetPassword.swift
+//  TheGame
+//
+//  Created by Stephen Shellenberger on 3/25/15.
+//  Copyright (c) 2015 Riding the ShortBus. All rights reserved.
+//
+
+import UIKit
+
+class vcUsersafety_ResetPassword: UIViewController
+{
+    var processResetPassword = prUsersafety_ResetPassword();
+    
+    @IBOutlet weak var emailText: UITextField!
+    @IBOutlet weak var sendButton: UIButton!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        // Do any additional setup after loading the view.
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
+
+    /*
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        // Get the new view controller using segue.destinationViewController.
+        // Pass the selected object to the new view controller.
+    }
+    */
+
+    @IBAction func actionbuttonUsersafety_ResetPassword(sender: AnyObject)
+    {
+        var email:NSString = emailText.text;
+        
+        if(email != "")
+        {
+            var callHttp = CallHttp();
+            callHttp.execute(self.processResetPassword.getPostQueryString(email))
+            {
+                (data, error) -> Void in
+                if (error != nil)
+                {
+                    NSLog("Non-Trapped Return: %@", error!);
+                }
+                else
+                {
+                    dispatch_async(dispatch_get_main_queue(),
+                    { () -> Void in
+                        self.processResetPassword.handleResponse(self, json: data);
+                    });
+                }
+            }
+        }
+        else
+        {
+            var alertView:UIAlertView = UIAlertView();
+            alertView.title = "Activation issue has occured!";
+            alertView.message = "Please enter Email";
+            alertView.delegate = self;
+            alertView.addButtonWithTitle("OK");
+            alertView.show();
+        }
+    }
+}

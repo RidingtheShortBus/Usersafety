@@ -14,6 +14,39 @@
 		A137832B1AC68CD6000C541A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A137832A1AC68CD6000C541A /* Images.xcassets */; };
 		A137832E1AC68CD6000C541A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A137832C1AC68CD6000C541A /* LaunchScreen.xib */; };
 		A137833A1AC68CD6000C541A /* UsersafetyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13783391AC68CD6000C541A /* UsersafetyTests.swift */; };
+		A15AA3F21AC8C97600405C6C /* CallHttp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15AA3C01AC8C97600405C6C /* CallHttp.swift */; };
+		A15AA3F31AC8C97600405C6C /* CallHttps.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15AA3C11AC8C97600405C6C /* CallHttps.swift */; };
+		A15AA3F41AC8C97600405C6C /* InfoPlistBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15AA3C31AC8C97600405C6C /* InfoPlistBundle.swift */; };
+		A15AA3F51AC8C97600405C6C /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15AA3C41AC8C97600405C6C /* JSONParser.swift */; };
+		A15AA3F61AC8C97600405C6C /* ParserJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15AA3C51AC8C97600405C6C /* ParserJSON.swift */; };
+		A15AA3F71AC8C97600405C6C /* UIElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15AA3D01AC8C97600405C6C /* UIElements.swift */; };
+		A15AA3F81AC8C97600405C6C /* 02841_theroadtonowhere_1440x900.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A15AA3D41AC8C97600405C6C /* 02841_theroadtonowhere_1440x900.jpg */; };
+		A15AA3F91AC8C97600405C6C /* dukebluedevils1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A15AA3D61AC8C97600405C6C /* dukebluedevils1.jpg */; };
+		A15AA3FA1AC8C97600405C6C /* floridagators1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A15AA3D71AC8C97600405C6C /* floridagators1.jpg */; };
+		A15AA3FB1AC8C97600405C6C /* georgetownhoyas1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A15AA3D81AC8C97600405C6C /* georgetownhoyas1.jpg */; };
+		A15AA3FC1AC8C97600405C6C /* georgiatechyellowjackets1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A15AA3D91AC8C97600405C6C /* georgiatechyellowjackets1.jpg */; };
+		A15AA3FD1AC8C97600405C6C /* northcarolinatarheels1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A15AA3DA1AC8C97600405C6C /* northcarolinatarheels1.jpg */; };
+		A15AA3FE1AC8C97600405C6C /* ohiostatebuckeyes1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A15AA3DB1AC8C97600405C6C /* ohiostatebuckeyes1.jpg */; };
+		A15AA3FF1AC8C97600405C6C /* oklahomasooners1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A15AA3DC1AC8C97600405C6C /* oklahomasooners1.jpg */; };
+		A15AA4001AC8C97600405C6C /* oklahomastatecowboys.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A15AA3DD1AC8C97600405C6C /* oklahomastatecowboys.jpg */; };
+		A15AA4011AC8C97600405C6C /* oregonducks1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A15AA3DE1AC8C97600405C6C /* oregonducks1.jpg */; };
+		A15AA4021AC8C97600405C6C /* providencefriars1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A15AA3DF1AC8C97600405C6C /* providencefriars1.jpg */; };
+		A15AA4031AC8C97600405C6C /* seememu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A15AA3E01AC8C97600405C6C /* seememu.jpg */; };
+		A15AA4041AC8C97600405C6C /* prUsersafety_ActivateAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15AA3E21AC8C97600405C6C /* prUsersafety_ActivateAccount.swift */; };
+		A15AA4051AC8C97600405C6C /* prUsersafety_LoggedInData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15AA3E31AC8C97600405C6C /* prUsersafety_LoggedInData.swift */; };
+		A15AA4061AC8C97600405C6C /* prUsersafety_Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15AA3E41AC8C97600405C6C /* prUsersafety_Login.swift */; };
+		A15AA4071AC8C97600405C6C /* prUsersafety_LoginResetPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15AA3E51AC8C97600405C6C /* prUsersafety_LoginResetPassword.swift */; };
+		A15AA4081AC8C97600405C6C /* prUsersafety_Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15AA3E61AC8C97600405C6C /* prUsersafety_Registration.swift */; };
+		A15AA4091AC8C97600405C6C /* prUsersafety_ResetPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15AA3E71AC8C97600405C6C /* prUsersafety_ResetPassword.swift */; };
+		A15AA40A1AC8C97600405C6C /* usersafety.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A15AA3E81AC8C97600405C6C /* usersafety.storyboard */; };
+		A15AA40B1AC8C97600405C6C /* vcUsersafety_ActivateAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15AA3EA1AC8C97600405C6C /* vcUsersafety_ActivateAccount.swift */; };
+		A15AA40C1AC8C97600405C6C /* vcUsersafety_ActivateAccountSent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15AA3EB1AC8C97600405C6C /* vcUsersafety_ActivateAccountSent.swift */; };
+		A15AA40D1AC8C97600405C6C /* vcUsersafety_LoggedinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15AA3EC1AC8C97600405C6C /* vcUsersafety_LoggedinData.swift */; };
+		A15AA40E1AC8C97600405C6C /* vcUsersafety_Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15AA3ED1AC8C97600405C6C /* vcUsersafety_Login.swift */; };
+		A15AA40F1AC8C97600405C6C /* vcUsersafety_Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15AA3EE1AC8C97600405C6C /* vcUsersafety_Registration.swift */; };
+		A15AA4101AC8C97600405C6C /* vcUsersafety_RegistrationSent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15AA3EF1AC8C97600405C6C /* vcUsersafety_RegistrationSent.swift */; };
+		A15AA4111AC8C97600405C6C /* vcUsersafety_ResetPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15AA3F01AC8C97600405C6C /* vcUsersafety_ResetPassword.swift */; };
+		A15AA4121AC8C97600405C6C /* vcUsersafety_ResetPasswordSent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15AA3F11AC8C97600405C6C /* vcUsersafety_ResetPasswordSent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +71,39 @@
 		A13783331AC68CD6000C541A /* UsersafetyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UsersafetyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A13783381AC68CD6000C541A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A13783391AC68CD6000C541A /* UsersafetyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersafetyTests.swift; sourceTree = "<group>"; };
+		A15AA3C01AC8C97600405C6C /* CallHttp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallHttp.swift; sourceTree = "<group>"; };
+		A15AA3C11AC8C97600405C6C /* CallHttps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallHttps.swift; sourceTree = "<group>"; };
+		A15AA3C31AC8C97600405C6C /* InfoPlistBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoPlistBundle.swift; sourceTree = "<group>"; };
+		A15AA3C41AC8C97600405C6C /* JSONParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
+		A15AA3C51AC8C97600405C6C /* ParserJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParserJSON.swift; sourceTree = "<group>"; };
+		A15AA3D01AC8C97600405C6C /* UIElements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIElements.swift; sourceTree = "<group>"; };
+		A15AA3D41AC8C97600405C6C /* 02841_theroadtonowhere_1440x900.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 02841_theroadtonowhere_1440x900.jpg; sourceTree = "<group>"; };
+		A15AA3D61AC8C97600405C6C /* dukebluedevils1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dukebluedevils1.jpg; sourceTree = "<group>"; };
+		A15AA3D71AC8C97600405C6C /* floridagators1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = floridagators1.jpg; sourceTree = "<group>"; };
+		A15AA3D81AC8C97600405C6C /* georgetownhoyas1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = georgetownhoyas1.jpg; sourceTree = "<group>"; };
+		A15AA3D91AC8C97600405C6C /* georgiatechyellowjackets1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = georgiatechyellowjackets1.jpg; sourceTree = "<group>"; };
+		A15AA3DA1AC8C97600405C6C /* northcarolinatarheels1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = northcarolinatarheels1.jpg; sourceTree = "<group>"; };
+		A15AA3DB1AC8C97600405C6C /* ohiostatebuckeyes1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ohiostatebuckeyes1.jpg; sourceTree = "<group>"; };
+		A15AA3DC1AC8C97600405C6C /* oklahomasooners1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oklahomasooners1.jpg; sourceTree = "<group>"; };
+		A15AA3DD1AC8C97600405C6C /* oklahomastatecowboys.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oklahomastatecowboys.jpg; sourceTree = "<group>"; };
+		A15AA3DE1AC8C97600405C6C /* oregonducks1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oregonducks1.jpg; sourceTree = "<group>"; };
+		A15AA3DF1AC8C97600405C6C /* providencefriars1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = providencefriars1.jpg; sourceTree = "<group>"; };
+		A15AA3E01AC8C97600405C6C /* seememu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = seememu.jpg; sourceTree = "<group>"; };
+		A15AA3E21AC8C97600405C6C /* prUsersafety_ActivateAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = prUsersafety_ActivateAccount.swift; sourceTree = "<group>"; };
+		A15AA3E31AC8C97600405C6C /* prUsersafety_LoggedInData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = prUsersafety_LoggedInData.swift; sourceTree = "<group>"; };
+		A15AA3E41AC8C97600405C6C /* prUsersafety_Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = prUsersafety_Login.swift; sourceTree = "<group>"; };
+		A15AA3E51AC8C97600405C6C /* prUsersafety_LoginResetPassword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = prUsersafety_LoginResetPassword.swift; sourceTree = "<group>"; };
+		A15AA3E61AC8C97600405C6C /* prUsersafety_Registration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = prUsersafety_Registration.swift; sourceTree = "<group>"; };
+		A15AA3E71AC8C97600405C6C /* prUsersafety_ResetPassword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = prUsersafety_ResetPassword.swift; sourceTree = "<group>"; };
+		A15AA3E81AC8C97600405C6C /* usersafety.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = usersafety.storyboard; sourceTree = "<group>"; };
+		A15AA3EA1AC8C97600405C6C /* vcUsersafety_ActivateAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vcUsersafety_ActivateAccount.swift; sourceTree = "<group>"; };
+		A15AA3EB1AC8C97600405C6C /* vcUsersafety_ActivateAccountSent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vcUsersafety_ActivateAccountSent.swift; sourceTree = "<group>"; };
+		A15AA3EC1AC8C97600405C6C /* vcUsersafety_LoggedinData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vcUsersafety_LoggedinData.swift; sourceTree = "<group>"; };
+		A15AA3ED1AC8C97600405C6C /* vcUsersafety_Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vcUsersafety_Login.swift; sourceTree = "<group>"; };
+		A15AA3EE1AC8C97600405C6C /* vcUsersafety_Registration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vcUsersafety_Registration.swift; sourceTree = "<group>"; };
+		A15AA3EF1AC8C97600405C6C /* vcUsersafety_RegistrationSent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vcUsersafety_RegistrationSent.swift; sourceTree = "<group>"; };
+		A15AA3F01AC8C97600405C6C /* vcUsersafety_ResetPassword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vcUsersafety_ResetPassword.swift; sourceTree = "<group>"; };
+		A15AA3F11AC8C97600405C6C /* vcUsersafety_ResetPasswordSent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vcUsersafety_ResetPasswordSent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +145,9 @@
 		A137831D1AC68CD6000C541A /* Usersafety */ = {
 			isa = PBXGroup;
 			children = (
+				A15AA3BE1AC8C97600405C6C /* classes */,
+				A15AA3C91AC8C97600405C6C /* mimes */,
+				A15AA3CC1AC8C97600405C6C /* Usersafety */,
 				A13783201AC68CD6000C541A /* AppDelegate.swift */,
 				A13783251AC68CD6000C541A /* ViewController.swift */,
 				A13783271AC68CD6000C541A /* Main.storyboard */,
@@ -113,6 +182,188 @@
 				A13783381AC68CD6000C541A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A15AA3BE1AC8C97600405C6C /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				A15AA3BF1AC8C97600405C6C /* callers */,
+				A15AA3C21AC8C97600405C6C /* controls */,
+				A15AA3C61AC8C97600405C6C /* elements */,
+				A15AA3C71AC8C97600405C6C /* process */,
+				A15AA3C81AC8C97600405C6C /* views */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		A15AA3BF1AC8C97600405C6C /* callers */ = {
+			isa = PBXGroup;
+			children = (
+				A15AA3C01AC8C97600405C6C /* CallHttp.swift */,
+				A15AA3C11AC8C97600405C6C /* CallHttps.swift */,
+			);
+			path = callers;
+			sourceTree = "<group>";
+		};
+		A15AA3C21AC8C97600405C6C /* controls */ = {
+			isa = PBXGroup;
+			children = (
+				A15AA3C31AC8C97600405C6C /* InfoPlistBundle.swift */,
+				A15AA3C41AC8C97600405C6C /* JSONParser.swift */,
+				A15AA3C51AC8C97600405C6C /* ParserJSON.swift */,
+			);
+			path = controls;
+			sourceTree = "<group>";
+		};
+		A15AA3C61AC8C97600405C6C /* elements */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = elements;
+			sourceTree = "<group>";
+		};
+		A15AA3C71AC8C97600405C6C /* process */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = process;
+			sourceTree = "<group>";
+		};
+		A15AA3C81AC8C97600405C6C /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		A15AA3C91AC8C97600405C6C /* mimes */ = {
+			isa = PBXGroup;
+			children = (
+				A15AA3CA1AC8C97600405C6C /* images */,
+			);
+			path = mimes;
+			sourceTree = "<group>";
+		};
+		A15AA3CA1AC8C97600405C6C /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A15AA3CB1AC8C97600405C6C /* backgrounds */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		A15AA3CB1AC8C97600405C6C /* backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = backgrounds;
+			sourceTree = "<group>";
+		};
+		A15AA3CC1AC8C97600405C6C /* Usersafety */ = {
+			isa = PBXGroup;
+			children = (
+				A15AA3E81AC8C97600405C6C /* usersafety.storyboard */,
+				A15AA3CD1AC8C97600405C6C /* callers */,
+				A15AA3CE1AC8C97600405C6C /* controls */,
+				A15AA3CF1AC8C97600405C6C /* elements */,
+				A15AA3D11AC8C97600405C6C /* mimes */,
+				A15AA3E11AC8C97600405C6C /* process */,
+				A15AA3E91AC8C97600405C6C /* views */,
+			);
+			path = Usersafety;
+			sourceTree = "<group>";
+		};
+		A15AA3CD1AC8C97600405C6C /* callers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = callers;
+			sourceTree = "<group>";
+		};
+		A15AA3CE1AC8C97600405C6C /* controls */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controls;
+			sourceTree = "<group>";
+		};
+		A15AA3CF1AC8C97600405C6C /* elements */ = {
+			isa = PBXGroup;
+			children = (
+				A15AA3D01AC8C97600405C6C /* UIElements.swift */,
+			);
+			path = elements;
+			sourceTree = "<group>";
+		};
+		A15AA3D11AC8C97600405C6C /* mimes */ = {
+			isa = PBXGroup;
+			children = (
+				A15AA3D21AC8C97600405C6C /* images */,
+			);
+			path = mimes;
+			sourceTree = "<group>";
+		};
+		A15AA3D21AC8C97600405C6C /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A15AA3D31AC8C97600405C6C /* backgrounds */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		A15AA3D31AC8C97600405C6C /* backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				A15AA3D41AC8C97600405C6C /* 02841_theroadtonowhere_1440x900.jpg */,
+				A15AA3D51AC8C97600405C6C /* univerties */,
+			);
+			path = backgrounds;
+			sourceTree = "<group>";
+		};
+		A15AA3D51AC8C97600405C6C /* univerties */ = {
+			isa = PBXGroup;
+			children = (
+				A15AA3D61AC8C97600405C6C /* dukebluedevils1.jpg */,
+				A15AA3D71AC8C97600405C6C /* floridagators1.jpg */,
+				A15AA3D81AC8C97600405C6C /* georgetownhoyas1.jpg */,
+				A15AA3D91AC8C97600405C6C /* georgiatechyellowjackets1.jpg */,
+				A15AA3DA1AC8C97600405C6C /* northcarolinatarheels1.jpg */,
+				A15AA3DB1AC8C97600405C6C /* ohiostatebuckeyes1.jpg */,
+				A15AA3DC1AC8C97600405C6C /* oklahomasooners1.jpg */,
+				A15AA3DD1AC8C97600405C6C /* oklahomastatecowboys.jpg */,
+				A15AA3DE1AC8C97600405C6C /* oregonducks1.jpg */,
+				A15AA3DF1AC8C97600405C6C /* providencefriars1.jpg */,
+				A15AA3E01AC8C97600405C6C /* seememu.jpg */,
+			);
+			path = univerties;
+			sourceTree = "<group>";
+		};
+		A15AA3E11AC8C97600405C6C /* process */ = {
+			isa = PBXGroup;
+			children = (
+				A15AA3E21AC8C97600405C6C /* prUsersafety_ActivateAccount.swift */,
+				A15AA3E31AC8C97600405C6C /* prUsersafety_LoggedInData.swift */,
+				A15AA3E41AC8C97600405C6C /* prUsersafety_Login.swift */,
+				A15AA3E51AC8C97600405C6C /* prUsersafety_LoginResetPassword.swift */,
+				A15AA3E61AC8C97600405C6C /* prUsersafety_Registration.swift */,
+				A15AA3E71AC8C97600405C6C /* prUsersafety_ResetPassword.swift */,
+			);
+			path = process;
+			sourceTree = "<group>";
+		};
+		A15AA3E91AC8C97600405C6C /* views */ = {
+			isa = PBXGroup;
+			children = (
+				A15AA3EA1AC8C97600405C6C /* vcUsersafety_ActivateAccount.swift */,
+				A15AA3EB1AC8C97600405C6C /* vcUsersafety_ActivateAccountSent.swift */,
+				A15AA3EC1AC8C97600405C6C /* vcUsersafety_LoggedinData.swift */,
+				A15AA3ED1AC8C97600405C6C /* vcUsersafety_Login.swift */,
+				A15AA3EE1AC8C97600405C6C /* vcUsersafety_Registration.swift */,
+				A15AA3EF1AC8C97600405C6C /* vcUsersafety_RegistrationSent.swift */,
+				A15AA3F01AC8C97600405C6C /* vcUsersafety_ResetPassword.swift */,
+				A15AA3F11AC8C97600405C6C /* vcUsersafety_ResetPasswordSent.swift */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,9 +446,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A15AA3FC1AC8C97600405C6C /* georgiatechyellowjackets1.jpg in Resources */,
 				A13783291AC68CD6000C541A /* Main.storyboard in Resources */,
+				A15AA4001AC8C97600405C6C /* oklahomastatecowboys.jpg in Resources */,
+				A15AA3FA1AC8C97600405C6C /* floridagators1.jpg in Resources */,
+				A15AA3FE1AC8C97600405C6C /* ohiostatebuckeyes1.jpg in Resources */,
 				A137832E1AC68CD6000C541A /* LaunchScreen.xib in Resources */,
+				A15AA3FB1AC8C97600405C6C /* georgetownhoyas1.jpg in Resources */,
+				A15AA40A1AC8C97600405C6C /* usersafety.storyboard in Resources */,
+				A15AA3F91AC8C97600405C6C /* dukebluedevils1.jpg in Resources */,
 				A137832B1AC68CD6000C541A /* Images.xcassets in Resources */,
+				A15AA3FD1AC8C97600405C6C /* northcarolinatarheels1.jpg in Resources */,
+				A15AA3F81AC8C97600405C6C /* 02841_theroadtonowhere_1440x900.jpg in Resources */,
+				A15AA4011AC8C97600405C6C /* oregonducks1.jpg in Resources */,
+				A15AA3FF1AC8C97600405C6C /* oklahomasooners1.jpg in Resources */,
+				A15AA4021AC8C97600405C6C /* providencefriars1.jpg in Resources */,
+				A15AA4031AC8C97600405C6C /* seememu.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,9 +479,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A15AA3F41AC8C97600405C6C /* InfoPlistBundle.swift in Sources */,
+				A15AA4081AC8C97600405C6C /* prUsersafety_Registration.swift in Sources */,
+				A15AA4111AC8C97600405C6C /* vcUsersafety_ResetPassword.swift in Sources */,
 				A13783261AC68CD6000C541A /* ViewController.swift in Sources */,
+				A15AA3F61AC8C97600405C6C /* ParserJSON.swift in Sources */,
+				A15AA4101AC8C97600405C6C /* vcUsersafety_RegistrationSent.swift in Sources */,
+				A15AA4071AC8C97600405C6C /* prUsersafety_LoginResetPassword.swift in Sources */,
+				A15AA3F51AC8C97600405C6C /* JSONParser.swift in Sources */,
+				A15AA40E1AC8C97600405C6C /* vcUsersafety_Login.swift in Sources */,
+				A15AA40B1AC8C97600405C6C /* vcUsersafety_ActivateAccount.swift in Sources */,
+				A15AA3F31AC8C97600405C6C /* CallHttps.swift in Sources */,
+				A15AA4091AC8C97600405C6C /* prUsersafety_ResetPassword.swift in Sources */,
+				A15AA4051AC8C97600405C6C /* prUsersafety_LoggedInData.swift in Sources */,
+				A15AA3F21AC8C97600405C6C /* CallHttp.swift in Sources */,
+				A15AA40F1AC8C97600405C6C /* vcUsersafety_Registration.swift in Sources */,
 				A13783241AC68CD6000C541A /* Usersafety.xcdatamodeld in Sources */,
+				A15AA4061AC8C97600405C6C /* prUsersafety_Login.swift in Sources */,
+				A15AA3F71AC8C97600405C6C /* UIElements.swift in Sources */,
+				A15AA4121AC8C97600405C6C /* vcUsersafety_ResetPasswordSent.swift in Sources */,
+				A15AA40C1AC8C97600405C6C /* vcUsersafety_ActivateAccountSent.swift in Sources */,
 				A13783211AC68CD6000C541A /* AppDelegate.swift in Sources */,
+				A15AA40D1AC8C97600405C6C /* vcUsersafety_LoggedinData.swift in Sources */,
+				A15AA4041AC8C97600405C6C /* prUsersafety_ActivateAccount.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +695,7 @@
 				A137833F1AC68CD6000C541A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A13783401AC68CD6000C541A /* Build configuration list for PBXNativeTarget "UsersafetyTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +704,7 @@
 				A13783421AC68CD6000C541A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
